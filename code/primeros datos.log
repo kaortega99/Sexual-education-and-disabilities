@@ -1,0 +1,1497 @@
+-----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\LENOVO\Documents\primeros datos.log
+  log type:  text
+ opened on:   5 Dec 2024, 03:08:44
+
+. 
+end of do-file
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. *Merge con ID de personas con discapacidad
+. describe
+
+Contains data from G:\Mi unidad\PAPER KAREN\EDUCACIÓN SEXUAL\DATOS SEXUALIDAD DISCAPACIDAD ENSANUT.dta
+ Observations:         3,452                  
+    Variables:           406                  13 Oct 2024 19:06
+-----------------------------------------------------------------------------------------------------------------------
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+-----------------------------------------------------------------------------------------------------------------------
+area            byte    %8.0g      area       Área
+prov            str2    %2s                   Provincia
+upm             str12   %12s                  Indentificador de upm
+id_viv          str14   %14s                  Indentificador de vivienda
+id_hogar        str15   %15s                  Indentificador del hogar
+id_per          str17   %17s                  Indentificador de la persona
+persona         str2    %2s                   Cód. Persona
+f3_s1_1_3       byte    %8.0g                 1.3 Fecha de nacimiento:  Día
+f3_s1_1_4       byte    %8.0g                 1.4 Fecha de nacimiento: Mes
+f3_s1_1_5       int     %8.0g                 1.5 Fecha de nacimiento:  Año
+f3_s1_2         byte    %8.0g                 2.  Años cumplidos
+f3_s2_200_1     byte    %8.0g      f3_s2_200_1
+                                              200:  ¿Recibió o ha recibido información sobre:  1. El desarrollo del
+                                                cuerpo e
+f3_s2_201_1     byte    %8.0g      f3_s2_201_1
+                                              201.1.  ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_2     byte    %8.0g      f3_s2_200_2
+                                              200.2.  El aparato reproductor femenino/masculino?
+f3_s2_201_2     byte    %8.0g      f3_s2_201_2
+                                              201.2 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_3     byte    %8.0g      f3_s2_200_3
+                                              200_3.  La mestruación o regla?
+f3_s2_201_3     byte    %8.0g      f3_s2_201_3
+                                              201.3 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_4     byte    %8.0g      f3_s2_200_4
+                                              200.4 Las relaciones sexuales?
+f3_s2_201_4     byte    %8.0g      f3_s2_201_4
+                                              201.4 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_5     byte    %8.0g      f3_s2_200_5
+                                              200.5 El embarazo y el parto?
+f3_s2_201_5     byte    %8.0g      f3_s2_201_5
+                                              201.5 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_6     byte    %8.0g      f3_s2_200_6
+                                              200.6 Los métodos anticonceptivos?
+f3_s2_201_6     byte    %8.0g      f3_s2_201_6
+                                              201.6 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_7     byte    %8.0g      f3_s2_200_7
+                                              200.7 Las infecciones de transmisión sexual o el VIH/SIDA?
+f3_s2_201_7     byte    %8.0g      f3_s2_201_7
+                                              201.7 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_8     byte    %8.0g      f3_s2_200_8
+                                              200.8 Píldora de emergencia (del día después)?
+f3_s2_201_8     byte    %8.0g      f3_s2_201_8
+                                              201.8 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_200_9     byte    %8.0g      f3_s2_200_9
+                                              200.9 Sexualidad ( roles de género,orientación sexual, reproducción,
+                                                valores, e
+f3_s2_201_9     byte    %8.0g      f3_s2_201_9
+                                              201.9 ¿De quién o dónde recibió la mayor información sobre (TEMA)?
+f3_s2_202       byte    %8.0g      f3_s2_202
+                                              202.  ¿Ha tenido relaciones sexuales?
+f3_s2_203       byte    %8.0g                 203.  ¿Cuántos años cumplidos tenía usted cuando tuvo su primera relación
+                                                sexu
+f3_s2_204       byte    %8.0g      f3_s2_204
+                                              204.  ¿Usó usted o ella algún método anticonceptivo durante esa primera
+                                                relació
+f3_s2_205       byte    %15.0g     f3_s2_205
+                                              205.  Si su pareja le pidiera que lo usen, ¿Usted estaría dispuesto a
+                                                usar el c
+f3_s2_206       byte    %8.0g      f3_s2_206
+                                              206.  ¿Usó el condón en su última relación sexual?
+f3_s3_300       byte    %8.0g      f3_s3_300
+                                              300.  ¿Ha oído hablar de algún método anticonceptivo?
+f3_s3_301       byte    %8.0g      f3_s3_301
+                                              301.  ¿Quién cree usted que debería utilizar un método anticonceptivo?
+f3_s3_302_1     byte    %8.0g                 302.1 ¿Qué métodos dePlanificación Familiar conoce usted?  ESPONTÁNEO 1.
+                                                Es
+f3_s3_303_1     byte    %8.0g      f3_s3_303_1
+                                              303.1 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_1     byte    %8.0g      f3_s3_304_1
+                                              304.1 ¿Alguna vez ha usado (…)?
+f3_s3_305_1     byte    %8.0g      f3_s3_305_1
+                                              305.1 ¿Usa actualmente?
+f3_s3_302_2     byte    %8.0g                 302.2 Esterilización femenina o ligadura
+f3_s3_303_2     byte    %8.0g      f3_s3_303_2
+                                              303.2 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_2     byte    %8.0g      f3_s3_304_2
+                                              304.2 ¿Alguna vez ha usado (…)?
+f3_s3_305_2     byte    %8.0g      f3_s3_305_2
+                                              305.2 ¿Usa actualmente?
+f3_s3_302_3     byte    %8.0g                 302.3 Implante (Implanon, Jadelle)
+f3_s3_303_3     byte    %8.0g      f3_s3_303_3
+                                              303.3 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_3     byte    %8.0g      f3_s3_304_3
+                                              304.3 ¿Alguna vez ha usado (…)?
+f3_s3_305_3     byte    %8.0g      f3_s3_305_3
+                                              305.3 ¿Usa actualmente?
+f3_s3_302_4     byte    %8.0g                 302.4 Inyección anticonceptiva
+f3_s3_303_4     byte    %8.0g      f3_s3_303_4
+                                              303.4 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_4     byte    %8.0g      f3_s3_304_4
+                                              304.4 ¿Alguna vez ha usado (…)?
+f3_s3_305_4     byte    %8.0g      f3_s3_305_4
+                                              305.4 ¿Usa actualmente?
+f3_s3_302_5     byte    %8.0g                 302.5 Dispositivo Intra Uterino - DIU o T de cobre
+f3_s3_303_5     byte    %8.0g      f3_s3_303_5
+                                              303.5 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_5     byte    %8.0g      f3_s3_304_5
+                                              304.5 ¿Alguna vez ha usado (…)?
+f3_s3_305_5     byte    %8.0g      f3_s3_305_5
+                                              305.5 ¿Usa actualmente?
+f3_s3_302_6     byte    %8.0g                 302.6 Píldora o pastilla anticonceptiva
+f3_s3_303_6     byte    %8.0g      f3_s3_303_6
+                                              303.6 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_6     byte    %8.0g      f3_s3_304_6
+                                              304.6 ¿Alguna vez ha usado (…)?
+f3_s3_305_6     byte    %8.0g      f3_s3_305_6
+                                              305.6 ¿Usa actualmente?
+f3_s3_302_7     byte    %8.0g                 302.7 Condón (preservativo femenino)
+f3_s3_303_7     byte    %8.0g      f3_s3_303_7
+                                              303.7 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_7     byte    %8.0g      f3_s3_304_7
+                                              304.7 ¿Alguna vez ha usado (…)?
+f3_s3_305_7     byte    %8.0g      f3_s3_305_7
+                                              305.7 ¿Usa actualmente?
+f3_s3_302_8     byte    %8.0g                 302.8 Condón (preservativo masculino)
+f3_s3_303_8     byte    %8.0g      f3_s3_303_8
+                                              303.8 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_8     byte    %8.0g      f3_s3_304_8
+                                              304.8 ¿Alguna vez ha usado (…)?
+f3_s3_305_8     byte    %8.0g      f3_s3_305_8
+                                              305.8 ¿Usa actualmente?
+f3_s3_302_9     byte    %8.0g                 302.9 Pastillas anticonceptivas de emergencia (píldora del día después)
+f3_s3_303_9     byte    %8.0g      f3_s3_303_9
+                                              303.9 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_9     byte    %8.0g      f3_s3_304_9
+                                              304.9 ¿Alguna vez ha usado (…)?
+f3_s3_305_9     byte    %8.0g      f3_s3_305_9
+                                              305.9 ¿Usa actualmente?
+f3_s3_302_10    byte    %8.0g                 302.10 Ritmo, calendario o control de la temperatura, moco cervical
+                                                (Billings)
+f3_s3_303_10    byte    %8.0g      f3_s3_303_10
+                                              303.10 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_10    byte    %8.0g      f3_s3_304_10
+                                              304.10 ¿Alguna vez ha usado (…)?
+f3_s3_305_10    byte    %8.0g      f3_s3_305_10
+                                              305.10 ¿Usa actualmente?
+f3_s3_302_11    byte    %8.0g                 302.11 Coito interrumpido (El se retira cuando va a eyacular/terminar)
+f3_s3_303_11    byte    %8.0g      f3_s3_303_11
+                                              303.11 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_11    byte    %8.0g      f3_s3_304_11
+                                              304.11 ¿Alguna vez ha usado (…)?
+f3_s3_305_11    byte    %8.0g      f3_s3_305_11
+                                              305.11 ¿Usa actualmente?
+f3_s3_302_12    byte    %8.0g                 302.12 Método de lactancia exclusiva - MELA
+f3_s3_303_12    byte    %8.0g      f3_s3_303_12
+                                              303.12 ¿Conoce o ha oído hablar de (…)?
+f3_s3_304_12    byte    %8.0g      f3_s3_304_12
+                                              304.12 ¿Alguna vez ha usado (…)?
+f3_s3_305_12    byte    %8.0g      f3_s3_305_12
+                                              305.12 ¿Usa actualmente?
+f3_s3_302_13    byte    %8.0g                 302_13. otro, cuál?
+f3_s3_304_13    byte    %8.0g      f3_s3_304_13
+                                              304_13. ¿alguna vez ha usado (…)?
+f3_s3_305_13    byte    %8.0g      f3_s3_305_13
+                                               305_13. ¿usa actualmente?
+f3_s4_400       byte    %8.0g      f3_s4_400
+                                              400.  ¿Ha oído hablar de las infecciones de transmisión sexual?
+f3_s4_401_1     byte    %8.0g                 401.1 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_1     byte    %8.0g      f3_s4_402_1
+                                              402.1 ¿Ha oído hablar de...  DIRIGIDO 1. Sifilis?
+f3_s4_401_2     byte    %8.0g                 401.2 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_2     byte    %8.0g      f3_s4_402_2
+                                              402.2 ¿Ha oído hablar de… 2. Gonorrea?
+f3_s4_401_3     byte    %8.0g                 401.3 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_3     byte    %8.0g      f3_s4_402_3
+                                              402.3 ¿Ha oído hablar de…3. VIH / SIDA?
+f3_s4_401_4     byte    %8.0g                 401.4 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_4     byte    %8.0g      f3_s4_402_4
+                                              402.4 ¿Ha oído hablar de…4. Herpes genital?
+f3_s4_401_5     byte    %8.0g                 401.5 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_5     byte    %8.0g      f3_s4_402_5
+                                              402.5 ¿Ha oído hablar de…5. Virus de Papiloma HUmano (condilomas,
+                                                verrugas, col
+f3_s4_401_6     byte    %8.0g                 401.6 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_6     byte    %8.0g      f3_s4_402_6
+                                              402.6 ¿Ha oído hablar de…6. Chancro?
+f3_s4_401_7     byte    %8.0g                 401.7 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_7     byte    %8.0g      f3_s4_402_7
+                                              402.7 ¿Ha oído hablar de…7. Chlamydia?
+f3_s4_401_8     byte    %8.0g                 401.8 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_8     byte    %8.0g      f3_s4_402_8
+                                              402.8 ¿Ha oído hablar de…8. Hepatitis B?
+f3_s4_401_9     byte    %8.0g                 401.9 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNEO
+f3_s4_402_9     byte    %8.0g      f3_s4_402_9
+                                              402.9 ¿Ha oído hablar de…9. Tricomoniasis?
+f3_s4_401_10    byte    %8.0g                 401.10 ¿De cuáles infecciones de transmisión sexual ha oído hablar?
+                                                ESPONTÁNE
+f3_s4_402_10    byte    %8.0g      f3_s4_402_10
+                                              402.10 ¿Ha oído hablar de…10. Candidiasis?
+f3_s4_401_11    byte    %8.0g                 401-11. otro cual? espefifique
+f3_s4_403       byte    %8.0g      f3_s4_403
+                                              403.  Encuestador/a revise en preguntas 401-3 y 402-3 si ha oído hablar
+                                                del VIH/
+f3_s4_404       byte    %8.0g      f3_s4_404
+                                              404.  ¿Piensa que una persona pueda estar infectada con el VIH/SIDA y no
+                                                present
+f3_s4_405       byte    %8.0g      f3_s4_405
+                                              405.  ¿Cree usted que existe cura para el VIH/SIDA?
+f3_s4_406       byte    %8.0g      f3_s4_406
+                                              406.  ¿Cree que usted tiene algún riesgo o peligro de infectarse del
+                                                VIH/SIDA?
+f3_s4_407       byte    %8.0g      f3_s4_407
+                                              407.  ¿Cuál es la razón principal por la que piensa Usted que SI tiene
+                                                algún rie
+f3_s4_408       byte    %8.0g      f3_s4_408
+                                              408.  ¿Cuál es la razón principal por la que piensa que NO tiene riesgo?
+f3_s4_409_1     byte    %8.0g                 409.1 ¿Cuáles formas de prevención conoce usted para que un hombre o una
+                                                mujer
+f3_s4_410_1     byte    %8.0g      f3_s4_410_1
+                                              410.1 ¿Es posible evitar infectarse del VIH/SIDA al …:  DIRIGIDO 1. No
+                                                tener r
+f3_s4_409_2     byte    %8.0g                 409.2 ¿Cuáles formas de prevención conoce usted para que un hombre o una
+                                                mujer
+f3_s4_410_2     byte    %8.0g      f3_s4_410_2
+                                              410.2 ¿Es posible evitar infectarse del VIH/SIDA al … 2. Manteniendo
+                                                relacione
+f3_s4_409_3     byte    %8.0g                 409.3 ¿Cuáles formas de prevención conoce usted para que un hombre o una
+                                                mujer
+f3_s4_410_3     byte    %8.0g      f3_s4_410_3
+                                              410.3 ¿Es posible evitar infectarse del VIH/SIDA al …
+f3_s4_409_4     byte    %8.0g                 409.4 ¿Cuáles formas de prevención conoce usted para que un hombre o una
+                                                mujer
+f3_s4_410_4     byte    %8.0g      f3_s4_410_4
+                                              410.4 ¿Es posible evitar infectarse del VIH/SIDA al …
+f3_s4_409_5     byte    %8.0g                 409.5 ¿Cuáles formas de prevención conoce usted para que un hombre o una
+                                                mujer
+f3_s4_411_1     byte    %8.0g      f3_s4_411_1
+                                              411.1 ¿Piensa usted que una persona puede infectarse del VIH/SIDA al..:
+                                                1. Da
+f3_s4_411_2     byte    %8.0g      f3_s4_411_2
+                                              411.2 Besar en la frente a alguien que tiene VIH/SIDA
+f3_s4_411_3     byte    %8.0g      f3_s4_411_3
+                                              411.3 Ser picado por un mosquito o zancudo?
+f3_s4_411_4     byte    %8.0g      f3_s4_411_4
+                                              411.4 Usar cucharas, tenedores, platos o vasos usados por alguien que
+                                                tiene
+f3_s4_411_5     byte    %8.0g      f3_s4_411_5
+                                              411.5 Trabajar con una persona que tiene VIH/SIDA?
+f3_s4_412_1     byte    %8.0g      f3_s4_412_1
+                                              412.1 ¿Si usted supiera:  1. Que un vendedor/proveedor/tendero de
+                                                vegetales f
+f3_s4_412_2     byte    %8.0g      f3_s4_412_2
+                                              412.2 Que un niño está infectado por el VIH/SIDA ¿Cree que puede ir a la
+                                                escuel
+f3_s4_412_3     byte    %8.0g      f3_s4_412_3
+                                              412.3 Que un pariente suyo se enfermara de VIH/SIDA ¿Estaría usted
+                                                dispuesto a
+f3_s4_412_4     byte    %8.0g      f3_s4_412_4
+                                              412.4 Que un profesor se encuentra infectado por el VIH/SIDA, pero no se
+                                                ve enf
+f3_s4_412_5     byte    %8.0g      f3_s4_412_5
+                                              412.5 Que una persona de su familia se infectara por el VIH/SIDA
+                                                ¿Preferiría us
+f3_s4_413       byte    %8.0g      f3_s4_413
+                                              413.  En los últimos 12 meses en su última relación sexual ¿utilizó
+                                                condón?
+f3_s4_414       byte    %8.0g      f3_s4_414
+                                              414.  ¿Ha oído hablar de la prueba o examen del VIH/SIDA?
+f3_s4_415       byte    %8.0g      f3_s4_415
+                                              415.  ¿Sabe dónde hacen la prueba o examen para el VIH/SIDA?
+f3_s4_416       byte    %8.0g      f3_s4_416
+                                              416.  ¿Le han hecho alguna vez la prueba o examen del VIH/ SIDA?
+f3_s4_417_1     byte    %8.0g                 417.1 ¿Hace cuánto tiempo fue que se hizo la prueba la última vez?:  Años
+f3_s4_417_2     byte    %8.0g                 417.2 ¿Hace cuánto tiempo fue que se hizo la prueba la última vez?: Meses
+f3_s4_418       byte    %8.0g      f3_s4_418
+                                              418.  ¿Dónde se hizo la prueba del VIH/ SIDA?
+f3_s4_419       byte    %8.0g      f3_s4_419
+                                              419.  ¿Ese examen se lo hizo:
+f3_s4_420       byte    %8.0g      f3_s4_420
+                                              420.  Antes de hacerle la prueba o el examen de VIH/SIDA, ¿Le explicaron
+                                                de qué
+f3_s4_421       byte    %8.0g      f3_s4_421
+                                              421.  ¿Recibió los resultados de la prueba o examen del VIH/ SIDA?
+f3_s4_422       byte    %8.0g      f3_s4_422
+                                              422.  Antes de darle los resultados, ¿conversaron con usted sobre las
+                                                formas de
+f3_s4_423       byte    %8.0g      f3_s4_423
+                                              423.  ¿Cuál es la razón principal por la que nunca se ha hecho la prueba
+                                                o exame
+f3_s4_424       byte    %8.0g      f3_s4_424
+                                              424.  Si le ofrecieran hacer el examen del VIH/SIDA de manera gratuita,
+                                                ¿Estaría
+f3_s4_425       byte    %8.0g      f3_s4_425
+                                              425.  ¿Cuál es la razón principal por la que no se haría la prueba o
+                                                examen del
+fecha_anio      int     %8.0g                 Fecha de visita -año
+fecha_mes       byte    %8.0g                 Fecha de visita - mes
+fecha_dia       byte    %8.0g                 Fecha de visita - día
+region          float   %9.0g      region     Región
+etnia           float   %16.0g     etnia      Autoidentificación etnica
+edadanios       byte    %9.0g                 Edad en años
+gedad_anios     byte    %12.0g     gedad_anios
+                                              Grupos de edad en años
+nivins          float   %35.0g     nivins     Nivel de instrucción
+estado_civil    byte    %18.0g     estado_civil
+                                              Estado civíl o conyugal
+fexp            float   %9.0g                 Factor de expansión
+estrato         str4    %4s                   Estratos
+sexo            byte    %8.0g      f1_s2_2    Sexo
+f1_s2_3_1       byte    %8.0g                 3.1 ¿Cuántos años cumplidos tiene?: años
+f1_s2_3_2       byte    %8.0g                 3.2 ¿Cuántos años cumplidos tiene?: meses
+f1_s2_4_1       byte    %8.0g                 4.1 ¿Cuál es la fecha de nacimiento de (…)? día
+f1_s2_4_2       byte    %8.0g                 4.2 ¿Cuál es la fecha de nacimiento de (…)? mes
+f1_s2_4_3       int     %8.0g                 4.3 ¿Cuál es la fecha de nacimiento de (…)? año
+f1_s2_7         byte    %8.0g      f1_s2_7    7.  ¿Cuál es el parentesco de (…) con el jefe (a) de este hogar?
+f1_s2_8_1       byte    %8.0g      f1_s2_8_1
+                                              8.1 Altern. 1 ¿(…) está afiliado o cubierto por:
+f1_s2_8_2       byte    %8.0g      f1_s2_8_2
+                                              8.2 Altern. 2 ¿(…) está afiliado o cubierto por:
+f1_s2_9         byte    %8.0g      f1_s2_9    9.1 ¿Cómo se Identifica (…) según su cultura y costumbres:
+f1_s2_10_1      byte    %8.0g      f1_s2_10_1
+                                              10.1 A Tiene dificultad para ver, aunque sea con lentes?
+f1_s2_10_2      byte    %8.0g      f1_s2_10_2
+                                              10.2 B Tiene dificultad para oir, incluso si utiliza un audífono?
+f1_s2_10_3      byte    %8.0g      f1_s2_10_3
+                                              10.3 C Tiene dificultad para caminar o subir escaleras?
+f1_s2_10_4      byte    %8.0g      f1_s2_10_4
+                                              10.4 D Tiene dificultad para recordar o concentrarse?
+f1_s2_10_5      byte    %8.0g      f1_s2_10_5
+                                              10.5 E Tiene dificultad para bañarse o vestirse ?
+f1_s2_10_6      byte    %8.0g      f1_s2_10_6
+                                              10.6 F Usando su lenguaje habitual, tiene dificultad para comunicarse es
+                                                decir
+f1_s2_11        byte    %8.0g      f1_s2_11   11.  ¿Tiene (…) carné de discapacidad emitido por el CONADIS o el MSP?
+f1_s2_12        int     %8.0g                 12.  ¿Qué porcentaje tiene (…)?
+f1_s2_13        byte    %8.0g      f1_s2_13   13.  ¿Fue visitado (…) por la Misión Manuela Espejo?
+f1_s2_14        byte    %8.0g      f1_s2_14   14.  ¿El padre de (…) vive en este hogar?
+f1_s2_14_1      byte    %8.0g                 14.1 cód Pers. Padre
+f1_s2_15        byte    %8.0g      f1_s2_15   15.  ¿La madre de (…) vive en este hogar?
+f1_s2_15_1      byte    %8.0g                 15.1 cód Pers. Madre
+f1_s2_16        byte    %8.0g      f1_s2_16   16.  ¿Actualmente, cuál es su Estado Civil ó Conyugal?
+f1_s2_17        byte    %8.0g      f1_s2_17   17.  ¿Asiste (…) actualmente a clases?
+f1_s2_18        byte    %8.0g      f1_s2_18   18.  ¿(…) asiste a la jornada de:
+f1_s2_19_1      byte    %8.0g      f1_s2_19_1
+                                              19.1 ¿Cuál es el nivel de instrucción y año más alto que aprobó?.  Nivel
+f1_s2_19_2      byte    %8.0g                 19.2 ¿Cuál es el nivel de instrucción y año más alto que aprobó?.  Año
+f1_s2_20        byte    %8.0g      f1_s2_20   20.  ¿Sabe (…) leer y escribir?
+f1_s2_21        byte    %8.0g      f1_s2_21   21.  ¿Por los estudios realizados obtuvo algún título superior?
+f1_s2_22        str50   %50s                  22.  ¿Qué título obtuvo (…)?
+f1_s2_23        byte    %8.0g      f1_s2_23   23 ¿(…) tiene teléfono celular activado?
+f1_s2_23_1      byte    %8.0g                 23.1 Cuántos?
+f1_s3_0         byte    %8.0g                 0.  cód. Per. Inf.
+f1_s3_1         byte    %8.0g      f1_s3_1    1.  ¿Qué hizo (…) la semana pasada:
+f1_s3_2         byte    %8.0g      f1_s3_2    2.  ¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su
+                                                casa par
+f1_s3_3         byte    %8.0g      f1_s3_3    3.  ¿Aunque (…) no haya trabajado la semana pasada, tiene algún trabajo o
+                                                negoci
+f1_s3_4_1       byte    %8.0g      f1_s3_4_1
+                                              4.1 ¿Por qué razón (…) no trabajó la semana pasada?
+f1_s3_5_1       byte    %8.0g      f1_s3_5_1
+                                              5.1 ¿Durante las últimas cuatro semanas (…) hizo alguna gestión para
+                                                buscar tra
+f1_s3_6         byte    %8.0g                 6.  ¿Hace cuánto tiempo busca trabajo (…)?
+f1_s3_7         byte    %8.0g      f1_s3_7    7.  ¿Por qué razón no buscó trabajo (…):
+f1_s3_8         byte    %8.0g      f1_s3_8    8.  ¿(…) está disponible para trabajar?
+f1_s3_9_1       byte    %8.0g      f1_s3_9_1
+                                              9.1 ¿(…) es:
+f1_s3_10_2      int     %8.0g                 10. ¿A qué se dedica principalmente la empresa, negocio, establecimiento,
+                                                instit
+f1_s3_11_2      int     %8.0g                 11. ¿En relación a su ocupación, qué trabajo realiza(ba) (…)?  Uso INEC
+f1_s3_12        byte    %8.0g      f1_s3_12   12.  En el lugar indicado (…) trabaja o trabajó como:
+f1_s3_13        byte    %8.0g      f1_s3_13   13.  ¿En cuál de los siguientes sitios o lugares trabaja (…):
+f1_s3_14        byte    %8.0g      f1_s3_14   14.  ¿Cuántos trabajos tuvo (…) en la semana pasada?
+f1_s3_15        double  %10.0g                15.  En el mes de ………. ¿cuál fue el monto en dinero que recibió (…) por
+                                                la venta
+f1_s3_16_1      byte    %8.0g      f1_s3_16_1
+                                              16.1 En el mes de ……… ¿retiró de su negocio o tomó de lo que produce o
+                                                vende, b
+f1_s3_16_2      double  %10.0g                16.2 Monto
+f1_s3_17        double  %10.0g                17.  En el mes de ……… ¿cuánto gastó para el funcionamiento de su negocio
+                                                en: com
+f1_s3_18        double  %10.0g                18.  En el mes de ………. en su ocupación como (…) ¿cuánto dinero líquido
+                                                recibió p
+f1_s3_19        double  %10.0g                19.  En el mes de …….. ¿cuánto le descontaron en total por las
+                                                aportaciones al I
+f1_s3_20_1      byte    %8.0g      f1_s3_20_1
+                                              20.1 En el mes de …….., además de su ingreso monetario ¿recibió por su
+                                                trabajo
+f1_s3_20_2      double  %10.0g                20.2 Monto
+f1_s3_21        long    %12.0g                21.  En su (s) otra (s) ocupación (es), ¿cuál fue su ingreso monetario
+                                                total, ya
+f1_s3_22_1      byte    %8.0g      f1_s3_22_1
+                                              22.1 En su (s) otra (s) ocupación (es) ¿recibió por su trabajo pago en
+                                                especies
+f1_s3_22_2      int     %8.0g                 22.2 Monto
+f1_s3_23_1      byte    %8.0g      f1_s3_23_1
+                                              23.1 ¿Recibió en el mes de ………. ingresos por concepto de intereses por:
+                                                cuenta
+f1_s3_23_2      double  %10.0g                23.2 Monto
+f1_s3_24_1      byte    %8.0g      f1_s3_24_1
+                                              24.1 ¿Recibió en el mes de ………….. ingresos por concepto de pensión por:
+                                                jubilac
+f1_s3_24_2      double  %10.0g                24.2 Monto
+f1_s3_25_1      byte    %8.0g      f1_s3_25_1
+                                              25.1 ¿Recibió en el mes de ………… dinero o especies por regalos o
+                                                donaciones de p
+f1_s3_25_2      double  %10.0g                25.2 Monto
+f1_s3_26_1      byte    %8.0g      f1_s3_26_1
+                                              26.1 ¿Recibió en el mes de …………... dinero o especies enviado por parte de
+                                                famil
+f1_s3_26_2      long    %12.0g                26.2 Monto
+f1_s3_27        byte    %8.0g      f1_s3_27   27.  ¿Recibe el Bono de desarrollo humano?
+f1_s3_28_1      float   %9.0g                 28.1 ¿Cuánto recibió en el mes de ………. por el BONO DE DESARROLLO HUMANO?
+                                                MONTO
+f1_s3_28_2      byte    %8.0g                 28.2 De Cuántos meses?
+f1_s3_29        byte    %8.0g      f1_s3_29   29.  ¿Recibe el Bono por el cuidado brindado a una persona discapacitada
+                                                del hog
+f1_s3_30_1      int     %8.0g                 30.1 ¿Cuánto recibió en el mes de ……….. por el Bono de discapacidad
+                                                Joaquín Gal
+f1_s3_30_2      byte    %8.0g                 30.2 De Cuántos meses?
+f1_s4_1         byte    %8.0g      f1_s4_1    1.  (…) Para tratar sus problemas de salud, acude o acudiría
+                                                principalmente a:
+f1_s4_2         byte    %8.0g      f1_s4_2    2.  (…) en los últimos 30 días (de…a…) tuvo alguna enfermedad, accidente,
+                                                quemad
+f1_s4_3         byte    %8.0g      f1_s4_3    3.  ¿Cuál fue la enfermedad, malestar o accidente más grave que tuvo (…)
+                                                en los
+f1_s4_4         byte    %8.0g      f1_s4_4    4.  ¿Hace cuánto tiempo ocurrió el (la) (problema de salud) de (…) por
+                                                primera v
+f1_s4_4_1       int     %8.0g                 4.1 Cuántos?
+f1_s4_5         byte    %8.0g                 5.  En los últimos 30 días, (…) ¿cuántos días ha estado con el
+                                                (la)…(problemas d
+f1_s4_6         byte    %8.0g      f1_s4_6    6.  (…) qué hizo como primera acción para solucionar el (la) (problema de
+                                                salud)
+f1_s4_7         byte    %8.0g      f1_s4_7    7.  ¿Cuál fue el motivo por el que (…) no hizo nada para resolver el
+                                                (problema
+f1_s4_8         byte    %8.0g      f1_s4_8    8.  (…) a dónde acudió o quién le atendió por el (problema de salud)?
+f1_s4_9         byte    %8.0g      f1_s4_9    9.  ¿Cuál fue el motivo principal por el que (…) eligió ir a ese
+                                                (establecimient
+f1_s4_10_1      byte    %8.0g                 10.1 ¿Cuánto tiempo le tomó (…) llegar al….. (establecimiento o proveedor
+                                                de se
+f1_s4_10_2      byte    %8.0g                 10.2 Horas
+f1_s4_10_3      byte    %8.0g                 10.3 Minutos
+f1_s4_11        float   %9.0g                 11.  En total, ¿cuánto gastó en transporte para llegar al
+                                                …(establecimiento o pr
+f1_s4_12_1      byte    %8.0g                 12.1 Una vez que (…) llegó al (establecimiento o proveedor de servicios
+                                                de salu
+f1_s4_12_2      byte    %8.0g                 12.2 Horas
+f1_s4_12_3      byte    %8.0g                 12.3 Minutos
+f1_s4_13        byte    %8.0g      f1_s4_13   13.  Cuando (…) llegó al (establecimiento o proveedor de salud ) ¿quién
+                                                le atend
+f1_s4_14        byte    %8.0g      f1_s4_14   14.  (…)¿qué atención o servicio de salud recibió principalmente en el
+                                                (establec
+f1_s4_15        byte    %8.0g      f1_s4_15   15.  ¿Por el problema de salud que tuvo (…) gastó en consultas,
+                                                medicamentos, e
+f1_s4_16        byte    %8.0g      f1_s4_16   16.  ¿Por el o los gasto(s) que tuvo (…) en el establecimiento o
+                                                proveedor de s
+f1_s4_16_1      double  %10.0g                16.1 Seguro/otro-¿Por el o los gasto(s) que tuvo (…) en el
+                                                establecimiento o p
+f1_s4_16_2      long    %12.0g                16.2 Persona-¿Por el o los gasto(s) que tuvo (…) en el establecimiento o
+                                                prove
+f1_s4_17        byte    %8.0g      f1_s4_17   17.  (...)¿compró medicamentos fuera del establecimiento o proveedor de
+                                                salud en
+f1_s4_17_1      float   %9.0g                 17.1 Cuánto pagó?
+f1_s4_18        byte    %8.0g      f1_s4_18   18.  (...)¿tuvo que realizarse exámenes de laboratorio fuera del
+                                                establecimiento
+f1_s4_18_1      double  %10.0g                18.1 Cuánto pagó?
+f1_s4_19        byte    %8.0g      f1_s4_19   19.  (…)¿realizó algún otro pago por radiografía, tomografía, mamografía,
+                                                endos
+f1_s4_19_1      int     %8.0g                 19.1 Cuánto pagó?
+f1_s4_20        byte    %8.0g      f1_s4_20   20.  ¿Quién le atendió (…) la última vez, por su problema de salud en la
+                                                casa:
+f1_s4_21        long    %12.0g                21.  ¿Cuánto pagó por la atención que recibióen su casa la última vez?
+f1_s4_22        byte    %8.0g      f1_s4_22   22.  (…)¿compró medicinas, preparados u otros medicamentos o remedios o
+                                                pagó po
+f1_s4_22_1      float   %9.0g                 22.1 Cuánto pagó?
+f1_s4_23        byte    %8.0g      f1_s4_23   23.  ¿Por medio de quién o de dónde obtuvo la información acerca de estos
+                                                medica
+f1_s4_24        byte    %8.0g      f1_s4_24   24.  ¿Dónde obtuvo las medicinas, remedios u otros medicamentos que
+                                                utilizó para
+f1_s4_25        float   %9.0g                 25.  ¿Cuánto pagó por las medicinas, remedios u otros medicamentos que
+                                                utilizó p
+f1_s4_26        byte    %8.0g      f1_s4_26   26.  ¿Con la primera acción que (……) hizo, se resolvió o se curó del [la]
+                                                ….. (p
+f1_s4_27        byte    %8.0g      f1_s4_27   27.  ¿Qué otra acción hizo:
+f1_s4_28        byte    %8.0g      f1_s4_28   28.  ¿Cuál fue el motivo por el que (…) no hizo nada para resolver el
+                                                …..(pr
+f1_s4_29        byte    %8.0g      f1_s4_29   29.  (…)dónde estuvo hospitalizado?
+f1_s4_30_1      byte    %8.0g                 30.1 ¿Cuánto tiempo estuvo hospitalizado? DÍAS
+f1_s4_30_2      byte    %8.0g                 30.2 Horas
+f1_s4_30_3      byte    %8.0g                 30.3 Minutos
+f1_s4_31        byte    %8.0g      f1_s4_31   31.  ¿Gastó (…) por la hospitalización, (incluye medicamentos, exámenes
+                                                de labor
+f1_s4_32        byte    %8.0g      f1_s4_32   32.  ¿Por el o los gasto(s) que tuvo (…) en hospitalización:
+f1_s4_32_1      int     %8.0g                 32.1 Persona- Cuánto pagó?
+f1_s4_32_2      int     %8.0g                 32.2 Seguro/otro - Cuánto pagó?
+f1_s4_33        byte    %8.0g      f1_s4_33   33.  ¿Cómo obtuvo el dinero para pagar los gastos de hospitalización?
+f1_s4_34        byte    %8.0g      f1_s4_34   34.  Cuando (...) estuvo hospitalizado, ¿compró medicamentos fuera del
+                                                (establ
+f1_s4_34_1      int     %8.0g                 34.1 Cuánto pagó?
+f1_s4_35        byte    %8.0g      f1_s4_35   35.  Cuando (...) estuvo hospitalizado, ¿se hizo exámenes de laboratorio
+                                                fuera
+f1_s4_35_1      int     %8.0g                 35.1 Cuánto pagó?
+f1_s4_36        byte    %8.0g      f1_s4_36   36.  Cuando (...) estuvo hospitalizado, ¿se hizo radiografía, tomografía,
+                                                mamo
+f1_s4_36_1      int     %8.0g                 36.1 Cuánto pagó?
+f1_s4_37        byte    %8.0g      f1_s4_37   37.  ¿Finalmente se resolvió el problema de salud (enfermedad o
+                                                accidente) que t
+f1_s4_38        byte    %8.0g      f1_s4_38   38.  ¿Qué otra acción hizo (…) principalmente:
+f1_s4_39        byte    %8.0g                 39.  ¿Cuántas veces más (…) se trató por el/la (problema de salud) que
+                                                tuvo dura
+f1_s4_40        float   %9.0g                 40.  ¿Cuánto más gastó en total?
+f1_s4_41        byte    %8.0g      f1_s4_41   41.  ¿(…)se hizo chequear por un médico psicólogo, dentista, curandero,
+                                                boticari
+f1_s4_42        byte    %8.0g      f1_s4_42   42.  (…)¿a dónde acudió para hacerse el chequeo o control de su salud:
+f1_s4_43        byte    %8.0g      f1_s4_43   43.  ¿Cuál fue el motivo por el que (…) eligió ir a ese (establecimiento
+                                                o prove
+f1_s4_44_1      byte    %8.0g                 44.1 Cuánto tiempo le tomó (…) llegar al….. (establecimiento o proveedor
+                                                de ser
+f1_s4_44_2      byte    %8.0g                 44.2 Horas
+f1_s4_44_3      byte    %8.0g                 44.3 Minutos
+f1_s4_45        float   %9.0g                 45.  En total, ¿cuánto gastó (…) en transporte para llegar al
+                                                ..(establecimiento
+f1_s4_46_1      int     %8.0g                 46.1 Una vez que (…) llegó al …(establecimiento o proveedor de servicios
+                                                de sal
+f1_s4_46_2      int     %8.0g                 46.2 Minutos
+f1_s4_47        byte    %8.0g      f1_s4_47   47.  Qué atención o servicios de salud recibió principalmente:
+f1_s4_48        byte    %8.0g      f1_s4_48   48.  ¿Por el control preventivo que tuvo (…) gastó en consultas,
+                                                medicamentos, e
+f1_s4_49_1      byte    %8.0g      f1_s4_49_1
+                                              49.1 ¿Por el o los gasto(s) en el control preventivo que tuvo (…) en el
+                                                estable
+f1_s4_49_2      double  %10.0g                49.2 Cuánto Pagó? Persona
+f1_s4_49_3      long    %12.0g                49.3 Cuánto Pagó? Seguro / Otro
+f1_s4_50_1      byte    %8.0g      f1_s4_50_1
+                                              50.1 ¿(...) se realizó exámenes o efectuó otro gasto fuera del
+                                                establecimiento
+f1_s4_50_2      float   %9.0g                 50.2 Cuánto Pagó?
+f1_s4_51        byte    %8.0g      f1_s4_51   51.  ¿Cuándo tuvo el (los) problema (s) de salud o se estuvo haciendo
+                                                chequear (
+f1_s4_52        byte    %8.0g                 52.  ¿Cuántos días faltó (…)?
+f1_s4_53        float   %9.0g                 53.  ¿Cuánto ingreso perdió (…) por no ir a trabajar en esos días?
+f1_s4_54        byte    %8.0g      f1_s4_54   54.  Durante los últimos 12 meses (de...a…), tuvo alguna enfermedad o
+                                                accidente
+f1_s4_55        byte    %8.0g      f1_s4_55   55.  ¿Cuáles fueron la(s) enfermedad(es), malestar(es) o accidente(s) más
+                                                graves
+f1_s4_56        byte    %8.0g      f1_s4_56   56.  ¿Dónde estuvo hospitalizado la última vez:
+f1_s4_57        int     %8.0g                 57.  ¿Cuántas veces se ha atendido (…) en los últimos 12 meses por un
+                                                problema d
+f1_s4_58        byte    %8.0g      f1_s4_58   58.  ¿Cómo calificaría el estado de salud actual de (…)?
+f1_s4_59        byte    %8.0g      f1_s4_59   59.  Comparando el estado de salud actual de (…) con el de hace un año
+                                                ¿diría us
+f1_s4_60        byte    %8.0g      f1_s4_60   60.  Tomando en cuenta la última atención médica, si (…) pudiera escoger
+                                                ¿Regres
+f1_s4_61_1      byte    %8.0g      f1_s4_61_1
+                                              61.1 Por qué NO regresaría: Alternativa 1
+f1_s4_61_2      byte    %8.0g      f1_s4_61_2
+                                              61.2 Alternativa 2
+f1_s4_61_3      byte    %8.0g      f1_s4_61_3
+                                              61.3 Alternativa 3
+f1_s4_62_1      byte    %8.0g      f1_s4_62_1
+                                              62.1 Por qué SI regresaría: Alternativa 1
+f1_s4_62_2      byte    %8.0g      f1_s4_62_2
+                                              62.2 Alternativa 2
+f1_s4_62_3      byte    %8.0g      f1_s4_62_3
+                                              62.3 Alternativa 3
+f1_s5_1         byte    %8.0g      f1_s5_1    1.  Registro
+f1_s5_2         byte    %8.0g      f1_s5_2    2.  (…)actualmente o en los últimos 12 meses ( de……...al ……….) ha estado
+                                                embaraz
+f1_s5_3         byte    %8.0g                 3.  Durante los últimos 12 meses, ¿cuántas veces (...) se hizo el control
+                                                del em
+f1_s5_4         byte    %8.0g      f1_s5_4    4.1 ¿Cuál fue la razón por la que (…) no se hizo el control del embarazo?
+f1_s5_5         byte    %8.0g      f1_s5_5    5.1 (...) a dónde acudió o quién le atendió la última vez que se realizó
+                                                el con
+f1_s5_6         byte    %8.0g      f1_s5_6    6.  ¿Cuál fue el motivo principal por el que (..) eligió el..
+                                                (establecimiento d
+f1_s5_7_1       byte    %8.0g                 7.1 ¿Cuánto tiempo le tomó (….) llegar al …….(establecimiento o proveedor
+                                                de se
+f1_s5_7_2       byte    %8.0g                 7.2 Horas
+f1_s5_7_3       byte    %8.0g                 7.3 Minutos
+f1_s5_8         float   %9.0g                 8.  En total, ¿cuánto gasto en transporte para llegar
+                                                al…..(establecimiento o pr
+f1_s5_9_1       byte    %8.0g                 9.1 Una vez que (…..) llegó al ....(establecimiento o proveedor de
+                                                servicios de
+f1_s5_9_2       byte    %8.0g                 9.2 Minutos
+f1_s5_10        float   %9.0g                 10.  (…)cuánto ha gastado en total por su embarazo en consultas,
+                                                medicinas exáme
+f1_s5_11        byte    %8.0g      f1_s5_11   11.  ¿Cuando asistía o asiste a los controles prenatales (……) faltó o
+                                                dejó de tr
+f1_s5_12        int     %8.0g                 12.  ¿Cuántos días en total faltó (…) al trabajo?
+f1_s5_13        int     %8.0g                 13.  Cuánto ingreso perdió (...) por no ir a trabajar en esos días?
+f1_s5_14        byte    %8.0g      f1_s5_14   14.  En los últimos 12 meses (...) tuvo algún parto?
+f1_s5_15        byte    %8.0g      f1_s5_15   15.1 (…) a dónde acudió o quién le atendió el parto?
+f1_s5_16        byte    %8.0g      f1_s5_16   16.1 (…) porqué no acudió a un establecimiento de salud?
+f1_s5_17        byte    %8.0g      f1_s5_17   17.1 ¿Cuál fue el motivo por el que (…) eligió ir a ese …..
+                                                (establecimiento o
+f1_s5_18_1      byte    %8.0g                 18.1 ¿Cuánto tiempo le tomó (...) llegar al (establecimiento o proveedor
+                                                de ser
+f1_s5_18_2      byte    %8.0g                 18.2 Minutos
+f1_s5_19        float   %9.0g                 19.  En total, ¿cuánto gastó en transporte para llegar al
+                                                (establecimiento o pro
+f1_s5_20_1      byte    %8.0g                 20.1 Una vez que (…) llegó al …(establecimiento o proveedor de servicios
+                                                de sal
+f1_s5_20_2      byte    %8.0g                 20.2 Minutos
+f1_s5_21        float   %9.0g                 21.  ¿Cuánto gastó (...) en el parto?
+f1_s5_22        byte    %8.0g      f1_s5_22   22.  ¿Cuando (……) dio a luz, faltó o dejó de trabajar:
+f1_s5_23        int     %8.0g                 23.  ¿Cuántos días en total faltó (…) al trabajo?
+f1_s5_24        int     %8.0g                 24.  Cuánto ingreso perdió (...) por no ir a trabajar en esos días?
+f1_s5_25        byte    %8.0g      f1_s5_25   25.  Se hizo control postparto (…)?
+f1_s5_26        byte    %8.0g      f1_s5_26   26.  ¿Cuánto tiempo después del parto (……), se hizo el primer control
+                                                postparto?
+f1_s5_27        byte    %8.0g      f1_s5_27   27.1 ¿En qué lugar tuvo el control de postparto?
+f1_s5_28        byte    %8.0g      f1_s5_28   28.1 ¿Cuál fue el motivo por el que (…) eligió ir a ese ……..
+                                                (establecimiento o
+f1_s5_29_1      byte    %8.0g                 29.1 ¿Cuánto tiempo le tomó (...) llegar al (establecimiento o proveedor
+                                                de ser
+f1_s5_29_2      byte    %8.0g                 29.2 Horas
+f1_s5_29_3      byte    %8.0g                 29.3 Minutos
+f1_s5_30        float   %9.0g                 30.  En total, ¿cuánto gastó en transporte para llegar al
+                                                (establecimiento o pro
+f1_s5_31_1      byte    %8.0g                 31.1 Una vez que (…) llegó al …(establecimiento o proveedor de servicios
+                                                de sal
+f1_s5_31_2      byte    %8.0g                 31.2 Minutos
+f1_s5_32        int     %8.0g                 32.  (…) cuánto pago por la atención, medicinas, exámenes de laboratorio,
+                                                etc.?
+f1_s5_33        byte    %8.0g      f1_s5_33   33.  ¿Cuando asistía o asiste a los controles postparto (……), faltó o
+                                                dejó de tr
+f1_s5_34        int     %8.0g                 34.  ¿Cuántos días en total faltó (…) al trabajo?
+f1_s5_35        int     %8.0g                 35.  ¿Cuánto ingreso perdió (...) por no ir a trabajar en esos días?
+f1_s7_0_1       byte    %8.0g      f1_s7_0_1
+                                              0.1 ¿tiene (…) cédula de identidad o ciudadanía ecuatoriana?
+f1_s7_1         byte    %8.0g      f1_s7_1    1.  Señor/a encuestador/a registre si realizó la medición del peso y la
+                                                talla de
+f1_s7_2_1       byte    %8.0g                 2.1 ¿en que fecha nació (…)? día
+f1_s7_2_2       byte    %8.0g                 2.2 mes
+f1_s7_2_3       int     %8.0g                 2.3 año
+f1_s7_3_1       byte    %8.0g                 3.1 registre la fecha de la Medición de (…): día
+f1_s7_3_2       byte    %8.0g                 3.2 registre la fecha de la Medición de (…): mes
+f1_s7_3_3       int     %8.0g                 3.3 registre la fecha de la Medición de (…):  año
+f1_s7_4_1       float   %9.0g                 4.1 El peso 1 de (…)
+f1_s7_4_2       float   %9.0g                 4.2 peso 2
+f1_s7_4_3       float   %9.0g                 4.3 peso 3
+f1_s7_5_1       float   %9.0g                 5.1 La longitud 1 de (…)
+f1_s7_5_2       float   %9.0g                 5.2 longitud 2
+f1_s7_5_3       float   %9.0g                 5.3 longitud 3
+f1_s7_6_1       float   %9.0g                 6.1 La talla 1 de (…)
+f1_s7_6_2       float   %9.0g                 6.2 talla 2
+f1_s7_6_3       float   %9.0g                 6.3 talla 3
+f1_s7_7_1       byte    %8.0g      f1_s7_7_1
+                                              7.1 Registre la razón por la que no pudo tomar el peso y la
+                                                longitud/talla de (
+edaddias        float   %9.0g                 Edad en días
+edadmeses       float   %9.0g                 Edad en meses
+gedad_meses     float   %9.0g      gedad_meses
+                                              Grupo de edad en meses
+dcronica        float   %9.0g                 Desnutrición crónica menores de 5 años
+dglobal         float   %9.0g                 Desnutrición global menores de 5 años
+daguda          float   %9.0g                 Desnutrición aguda menores de 5 años
+dcronica_2      float   %9.0g                 Desnutrición crónica menores de 2 años
+dglobal_2       float   %9.0g                 Desnutrición global menores de 2 años
+daguda_2        float   %9.0g                 Desnutrición aguda menores de 2 años
+dsp5_11         float   %9.0g                 Sobrepeso de 5 a 11 años
+dobes5_11       float   %9.0g                 Obesidad de 5 a 11 años
+dspob5_11       float   %9.0g                 Sobrepeso y Obesidad de 5 a 11 años
+ddelg5_11       float   %9.0g                 Delgadez de 5 a 11 años
+dsp12_19        float   %9.0g                 Sobrepeso de 12 a 19 años
+dobes12_19      float   %9.0g                 Obesidad de 12 a 19 años
+dspob12_19      float   %9.0g                 Sobrepeso y Obesidad de 12 a 19 años
+ddelg12_19      float   %9.0g                 Delgadez de 12 a 19 años
+dbpeso19_59     float   %9.0g                 Bajo peso en adultos de 19 a 59 años
+dnorm19_59      float   %9.0g                 Peso Normal en adultos de 19 a 59 años
+dspeso19_59     float   %9.0g                 Sobrepeso en adultos de 19 a 59 años
+dobes19_59      float   %9.0g                 Obesidad en adultos de 19 a 59 años
+dspobes19_59    float   %9.0g                 Sobrepeso y obesidad en adultos de 19 a 59 años
+_merge          byte    %23.0g     _merge     Matching result from merge
+-----------------------------------------------------------------------------------------------------------------------
+Sorted by: id_per
+
+. merge 1:1 id_per using "C:\Users\LENOVO\Documents\YOUNG RESEARCHERS FELLOWSHIP\PAPER YRF\BDD_ENSANUT_2018_STATA_2\1_B
+> DD_ENS2018_f1_personas.dta"
+variable _merge already defined
+r(110);
+
+end of do-file
+
+r(110);
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. tab _merge
+
+   Matching result from |
+                  merge |      Freq.     Percent        Cum.
+------------------------+-----------------------------------
+         Using only (2) |      2,709       78.48       78.48
+            Matched (3) |        743       21.52      100.00
+------------------------+-----------------------------------
+                  Total |      3,452      100.00
+
+. 
+end of do-file
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. //Filtrar solo las personas con discapacidad
+. keep if f1_s2_11 == 1  // 1 = "sí"
+(0 observations deleted)
+
+. summarize
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        area |      3,452    1.415411    .4928642          1          2
+        prov |          0
+         upm |          0
+      id_viv |          0
+    id_hogar |          0
+-------------+---------------------------------------------------------
+      id_per |          0
+     persona |          0
+   f3_s1_1_3 |        743    15.70121    8.744476          1         31
+   f3_s1_1_4 |        743    6.139973    3.522634          1         12
+   f3_s1_1_5 |        743    1967.283    19.25515       1919       2006
+-------------+---------------------------------------------------------
+     f3_s1_2 |        743    50.70929    19.27609         12         99
+ f3_s2_200_1 |        743    3.251682    12.18323          1         88
+ f3_s2_201_1 |        360       2.275    1.070983          1          5
+ f3_s2_200_2 |        743    3.071332    11.78761          1         88
+ f3_s2_201_2 |        408    2.333333    1.061577          1          5
+-------------+---------------------------------------------------------
+ f3_s2_200_3 |        743    2.904441    10.92144          1         88
+ f3_s2_201_3 |        360        2.25    1.111475          1          5
+ f3_s2_200_4 |        743     2.79004    10.93557          1         88
+ f3_s2_201_4 |        445    2.474157     1.22194          1          5
+ f3_s2_200_5 |        743    2.962315    11.36641          1         88
+-------------+---------------------------------------------------------
+ f3_s2_201_5 |        403     2.64268    1.366393          1          5
+ f3_s2_200_6 |        743    2.811575      10.933          1         88
+ f3_s2_201_6 |        429    2.864802    1.387661          1          5
+ f3_s2_200_7 |        743    2.559892    9.998051          1         88
+ f3_s2_201_7 |        444    2.936937    1.404792          1          5
+-------------+---------------------------------------------------------
+ f3_s2_200_8 |        743    3.115747    11.34559          1         88
+ f3_s2_201_8 |        289    2.910035    1.311886          1          5
+ f3_s2_200_9 |        743    3.641992    13.31015          1         88
+ f3_s2_201_9 |        328    2.759146    1.334066          1          5
+   f3_s2_202 |        743     3.35397    14.64926          1         99
+-------------+---------------------------------------------------------
+   f3_s2_203 |        643    27.71073    26.34655          8         99
+   f3_s2_204 |        643    1.807154    .3948403          1          2
+   f3_s2_205 |        643     9.59098    24.95134          1         88
+   f3_s2_206 |        643    1.793157    .4053572          1          2
+   f3_s3_300 |        743    1.341857    .4746516          1          2
+-------------+---------------------------------------------------------
+   f3_s3_301 |        489    6.298569    17.33792          1         88
+ f3_s3_302_1 |        488    1.883197    .3215153          1          2
+ f3_s3_303_1 |        686    1.623907    .4847573          1          2
+ f3_s3_304_1 |        315    1.987302    .1121476          1          2
+ f3_s3_305_1 |          4           1           0          1          1
+-------------+---------------------------------------------------------
+ f3_s3_302_2 |        489    1.783231    .4124658          1          2
+ f3_s3_303_2 |        637    1.401884     .490664          1          2
+ f3_s3_304_2 |        487    1.802875    .3982368          1          2
+ f3_s3_305_2 |         96    1.010417    .1020621          1          2
+ f3_s3_302_3 |        488    1.727459    .4457236          1          2
+-------------+---------------------------------------------------------
+ f3_s3_303_3 |        610    1.611475    .4878149          1          2
+ f3_s3_304_3 |        370    1.883784     .320918          1          2
+ f3_s3_305_3 |         43    1.581395    .4991687          1          2
+ f3_s3_302_4 |        488    1.610656    .4881019          1          2
+ f3_s3_303_4 |        553    1.508137    .5003864          1          2
+-------------+---------------------------------------------------------
+ f3_s3_304_4 |        462    1.811688    .3913847          1          2
+ f3_s3_305_4 |         87    1.747126    .4371789          1          2
+ f3_s3_302_5 |        488    1.692623    .4618805          1          2
+ f3_s3_303_5 |        593     1.55312      .49759          1          2
+ f3_s3_304_5 |        415    1.860241    .3471554          1          2
+-------------+---------------------------------------------------------
+ f3_s3_305_5 |         58    1.913793    .2831206          1          2
+ f3_s3_302_6 |        488    1.532787    .4994358          1          2
+ f3_s3_303_6 |        515    1.539806    .4988976          1          2
+ f3_s3_304_6 |        465    1.748387    .4344073          1          2
+ f3_s3_305_6 |        117    1.863248    .3450633          1          2
+-------------+---------------------------------------------------------
+ f3_s3_302_7 |        488    1.838115    .3687235          1          2
+ f3_s3_303_7 |        664    1.670181    .4705018          1          2
+ f3_s3_304_7 |        298     1.90604    .2922635          1          2
+ f3_s3_305_7 |         27    1.888889    .3202563          1          2
+ f3_s3_302_8 |        488    1.288934    .4537325          1          2
+-------------+---------------------------------------------------------
+ f3_s3_303_8 |        396    1.419192     .494051          1          2
+ f3_s3_304_8 |        577    1.438475    .4966308          1          2
+ f3_s3_305_8 |        324    1.614198    .4875372          1          2
+ f3_s3_302_9 |        488     1.85041    .3570352          1          2
+ f3_s3_303_9 |        670    1.625373     .484388          1          2
+-------------+---------------------------------------------------------
+ f3_s3_304_9 |        324    1.861111    .3463655          1          2
+ f3_s3_305_9 |         45    1.933333    .2522625          1          2
+f3_s3_302_10 |        488    1.895492    .3062326          1          2
+f3_s3_303_10 |        692    1.699422    .4588411          1          2
+f3_s3_304_10 |        259    1.714286    .4526286          1          2
+-------------+---------------------------------------------------------
+f3_s3_305_10 |         74    1.743243     .439826          1          2
+f3_s3_302_11 |        488    1.936475    .2441544          1          2
+f3_s3_303_11 |        712    1.685393    .4646855          1          2
+f3_s3_304_11 |        255    1.682353    .4664769          1          2
+f3_s3_305_11 |         81    1.876543    .3310104          1          2
+-------------+---------------------------------------------------------
+f3_s3_302_12 |        488    1.985656    .1190275          1          2
+f3_s3_303_12 |        736    1.861413      .34575          1          2
+f3_s3_304_12 |        109    1.926606    .2619875          1          2
+f3_s3_305_12 |          8       1.875    .3535534          1          2
+f3_s3_302_13 |        488    1.995902    .0639527          1          2
+-------------+---------------------------------------------------------
+f3_s3_304_13 |          2         1.5    .7071068          1          2
+f3_s3_305_13 |          1           1           .          1          1
+   f3_s4_400 |        743    1.333782    .4718806          1          2
+ f3_s4_401_1 |        495    1.658586    .4746638          1          2
+ f3_s4_402_1 |        574    1.686411     .464356          1          2
+-------------+---------------------------------------------------------
+ f3_s4_401_2 |        495    1.436364    .4964356          1          2
+ f3_s4_402_2 |        464    1.510776    .5004234          1          2
+ f3_s4_401_3 |        495    1.171717     .377516          1          2
+ f3_s4_402_3 |        332    1.430723    .4959249          1          2
+ f3_s4_401_4 |        495    1.840404    .3666014          1          2
+-------------+---------------------------------------------------------
+ f3_s4_402_4 |        664    1.584337    .4932074          1          2
+ f3_s4_401_5 |        495    1.771717    .4201504          1          2
+ f3_s4_402_5 |        630    1.547619    .4981228          1          2
+ f3_s4_401_6 |        495    1.745455    .4360461          1          2
+ f3_s4_402_6 |        616    1.647727    .4780666          1          2
+-------------+---------------------------------------------------------
+ f3_s4_401_7 |        495    1.967677     .177036          1          2
+ f3_s4_402_7 |        725    1.827586    .3780005          1          2
+ f3_s4_401_8 |        495    1.929293    .2565942          1          2
+ f3_s4_402_8 |        707    1.630835    .4829205          1          2
+ f3_s4_401_9 |        495    1.989899    .1000961          1          2
+-------------+---------------------------------------------------------
+ f3_s4_402_9 |        737     1.87924    .3260693          1          2
+f3_s4_401_10 |        495    1.983838    .1262244          1          2
+f3_s4_402_10 |        733    1.864939    .3420225          1          2
+f3_s4_401_11 |        495    1.979798    .1408331          1          2
+   f3_s4_403 |        743      1.6393     .786795          1          3
+-------------+---------------------------------------------------------
+   f3_s4_404 |        599    12.80301    29.55022          1         88
+   f3_s4_405 |        599    13.55426    29.67595          1         88
+   f3_s4_406 |        599     8.51586    23.21629          1         88
+   f3_s4_407 |        139    11.08633    21.72339          1         88
+   f3_s4_408 |        413    4.738499     7.33719          1         88
+-------------+---------------------------------------------------------
+ f3_s4_409_1 |        599    1.836394    .3702268          1          2
+ f3_s4_410_1 |        501    1.221557    .4157095          1          2
+ f3_s4_409_2 |        599    1.759599    .4276839          1          2
+ f3_s4_410_2 |        455    1.173626    .3792048          1          2
+ f3_s4_409_3 |        599    1.434057    .4960466          1          2
+-------------+---------------------------------------------------------
+ f3_s4_410_3 |        260    1.284615    .4521013          1          2
+ f3_s4_409_4 |        599    1.823038    .3819552          1          2
+ f3_s4_410_4 |        493    1.166329    .3727536          1          2
+ f3_s4_409_5 |        599    1.989983    .0996642          1          2
+ f3_s4_411_1 |        599     6.51419     19.3763          1         88
+-------------+---------------------------------------------------------
+ f3_s4_411_2 |        599    7.622705    21.52135          1         88
+ f3_s4_411_3 |        599     12.5626    29.00114          1         88
+ f3_s4_411_4 |        599    9.267112    24.55488          1         88
+ f3_s4_411_5 |        599    7.904841     22.0148          1         88
+ f3_s4_412_1 |        599    8.522538    23.74712          1         88
+-------------+---------------------------------------------------------
+ f3_s4_412_2 |        599    6.447412     20.6435          1         88
+ f3_s4_412_3 |        599    7.689482    22.91077          1         88
+ f3_s4_412_4 |        599    7.838063    22.87004          1         88
+ f3_s4_412_5 |        599    7.343907    21.59885          1         88
+   f3_s4_413 |        599     1.96995     .619444          1          3
+-------------+---------------------------------------------------------
+   f3_s4_414 |        599    1.253756    .4355235          1          2
+   f3_s4_415 |        447    1.107383    .3099459          1          2
+   f3_s4_416 |        447     1.47651    .5000075          1          2
+ f3_s4_417_1 |        234    4.196581    10.65997          0         88
+ f3_s4_417_2 |        234    3.145299    11.67571          0         88
+-------------+---------------------------------------------------------
+   f3_s4_418 |        234    3.055556    2.659728          1         10
+   f3_s4_419 |        234    1.905983    1.111647          1          4
+   f3_s4_420 |        234    1.192308    .3949583          1          2
+   f3_s4_421 |        234    1.098291    .2983453          1          2
+   f3_s4_422 |        211    1.260664    .4400406          1          2
+-------------+---------------------------------------------------------
+   f3_s4_423 |        213    3.840376    10.67234          1         88
+   f3_s4_424 |        447     1.06264    .2425855          1          2
+   f3_s4_425 |         28    2.428571    3.143819          1         10
+  fecha_anio |      3,452    2018.185    .3886778       2018       2019
+   fecha_mes |      3,452    10.51448    2.595623          1         12
+-------------+---------------------------------------------------------
+   fecha_dia |      3,452    15.99652    8.089652          1         30
+      region |      3,452    1.930185    .8301363          1          4
+       etnia |      3,452    2.798088    .8566083          1          5
+   edadanios |      3,452    42.57097    24.29004          0         99
+ gedad_anios |      3,452    4.977404    1.865069          0          7
+-------------+---------------------------------------------------------
+      nivins |      3,286    2.121424    .8390311          1          4
+estado_civil |      3,073    2.097624    .9172665          1          3
+        fexp |      3,452    122.6437    188.2744   3.728307    2159.73
+     estrato |          0
+        sexo |      3,452    1.455678    .4981038          1          2
+-------------+---------------------------------------------------------
+   f1_s2_3_1 |      3,452    42.57097    24.29004          0         99
+   f1_s2_3_2 |        166    5.789157    3.462019          0         11
+   f1_s2_4_1 |      3,452    15.46031    8.817141          1         31
+   f1_s2_4_2 |      3,452    6.478563    3.407996          1         12
+   f1_s2_4_3 |      3,452    1975.455    24.29389       1919       2018
+-------------+---------------------------------------------------------
+     f1_s2_7 |      3,452    2.914542    1.933087          1          9
+   f1_s2_8_1 |      3,452     4.58343     2.05777          1          6
+   f1_s2_8_2 |      3,452    5.993337    .0848521          4          6
+     f1_s2_9 |      3,452    5.183662    1.773101          1          7
+  f1_s2_10_1 |      3,286    1.717894    .9038204          1          4
+-------------+---------------------------------------------------------
+  f1_s2_10_2 |      3,286    1.552648    .8622635          1          4
+  f1_s2_10_3 |      3,286    1.904443    1.019743          1          4
+  f1_s2_10_4 |      3,286    1.744674    .9439033          1          4
+  f1_s2_10_5 |      3,286    1.636032    .9715424          1          4
+  f1_s2_10_6 |      3,286    1.712112    .9890816          1          4
+-------------+---------------------------------------------------------
+    f1_s2_11 |      3,452           1           0          1          1
+    f1_s2_12 |      3,452    55.23725    27.36588          0        843
+    f1_s2_13 |      3,452    1.613268     .487072          1          2
+    f1_s2_14 |      3,452    1.720742    .4486998          1          2
+  f1_s2_14_1 |        964    1.216805    .9304404          1         16
+-------------+---------------------------------------------------------
+    f1_s2_15 |      3,452    1.588644    .4921507          1          2
+  f1_s2_15_1 |      1,420    1.838028    .8338954          0         10
+    f1_s2_16 |      3,073    4.593557    2.664347          1          7
+    f1_s2_17 |      3,286    1.843883    .3630213          1          2
+    f1_s2_18 |        513    1.407407    .9920109          1          6
+-------------+---------------------------------------------------------
+  f1_s2_19_1 |      3,286     4.39927    2.245927          1         10
+  f1_s2_19_2 |      3,286    3.707243    2.660173          0         10
+    f1_s2_20 |      2,352    1.390731     .488018          1          2
+    f1_s2_21 |        273    1.285714    .4525836          1          2
+    f1_s2_22 |          0
+-------------+---------------------------------------------------------
+    f1_s2_23 |      3,286    1.604991    .4889271          1          2
+  f1_s2_23_1 |      1,299    1.003849    .1209259          0          2
+     f1_s3_0 |      3,154     1.63475    2.530451          0         77
+     f1_s3_1 |      3,154     1.72194     .448114          1          2
+     f1_s3_2 |      2,277    11.84936    .9896946          1         12
+-------------+---------------------------------------------------------
+     f1_s3_3 |      2,215     1.99684    .0561401          1          2
+   f1_s3_4_1 |          7    2.714286    1.704336          1          6
+   f1_s3_5_1 |      2,208    10.84873    1.084027          1         11
+     f1_s3_6 |         52    12.96154    13.04286          1         52
+     f1_s3_7 |      2,156    10.80241    1.181023          1         12
+-------------+---------------------------------------------------------
+     f1_s3_8 |         84    1.345238    .4783014          1          2
+   f1_s3_9_1 |      2,153    4.318625    1.110825          1          6
+  f1_s3_10_2 |        946    3655.252    3364.266        111       9700
+  f1_s3_11_2 |        946    6648.881    2170.002        210       9629
+    f1_s3_12 |        946    3.819239    1.821706          1          8
+-------------+---------------------------------------------------------
+    f1_s3_13 |        820    5.115854    3.619239          1         10
+    f1_s3_14 |        820    1.019512     .138401          1          2
+    f1_s3_15 |        394    335.3858    900.2934          0      15000
+  f1_s3_16_1 |        394    1.436548    .4965881          1          2
+  f1_s3_16_2 |        222    69.65541      88.822          0        700
+-------------+---------------------------------------------------------
+    f1_s3_17 |        394    2694.828    50374.99          0     999999
+    f1_s3_18 |        426     5154.42    68408.12          0     999999
+    f1_s3_19 |        426     9457.32    96551.08          0     999999
+  f1_s3_20_1 |        426    1.767606    .4228557          1          2
+  f1_s3_20_2 |         99    66.13131    71.66271          2        400
+-------------+---------------------------------------------------------
+    f1_s3_21 |         16    124.3125    88.92822         20        300
+  f1_s3_22_1 |         16       1.625          .5          1          2
+  f1_s3_22_2 |          6        43.5    52.66403         11        150
+  f1_s3_23_1 |      3,154    1.976855    .1503884          1          2
+  f1_s3_23_2 |         73    721.6575    2498.554         24      20000
+-------------+---------------------------------------------------------
+  f1_s3_24_1 |      3,154      1.8922    .3101763          1          2
+  f1_s3_24_2 |        340    9184.259    93622.49          5     999999
+  f1_s3_25_1 |      3,154    1.891883     .310577          1          2
+  f1_s3_25_2 |        341    82.57771    91.68201          2        833
+  f1_s3_26_1 |      3,154    1.985415     .119902          1          2
+-------------+---------------------------------------------------------
+  f1_s3_26_2 |         46    143.6957    133.4767         15        500
+    f1_s3_27 |      3,154    1.708307    .4546139          1          2
+  f1_s3_28_1 |        920    53.25109    16.74168          0        250
+  f1_s3_28_2 |        906    1.023179    .2585836          0          5
+    f1_s3_29 |      3,154    1.962904    .1890264          1          2
+-------------+---------------------------------------------------------
+  f1_s3_30_1 |        117    235.8974    31.24304          0        240
+  f1_s3_30_2 |        116    .9655172    .1832572          0          1
+     f1_s4_1 |      3,452    1.059676    .4691919          1          6
+     f1_s4_2 |      3,452     1.64861    .4774738          1          2
+     f1_s4_3 |      1,213    6.969497    5.269774          1         16
+-------------+---------------------------------------------------------
+     f1_s4_4 |      1,213    7.431162    20.98993          1         99
+   f1_s4_4_1 |      1,138     9.78471    9.668483          0         80
+     f1_s4_5 |      1,213    13.07997    11.39145          0         30
+     f1_s4_6 |      1,213    1.671063    1.236062          1          5
+     f1_s4_7 |         99    6.686869    3.300113          1         11
+-------------+---------------------------------------------------------
+     f1_s4_8 |        884    2.049774    2.076621          1         14
+     f1_s4_9 |        870     3.91954    2.167435          1          8
+  f1_s4_10_1 |        884    .0079186    .1113317          0          2
+  f1_s4_10_2 |        884    .4830317    1.428851          0         22
+  f1_s4_10_3 |        884    15.70475    12.46331          0         60
+-------------+---------------------------------------------------------
+    f1_s4_11 |        884    6.877036    30.39857          0        500
+  f1_s4_12_1 |        884    .0090498    .1841008          0          5
+  f1_s4_12_2 |        884    .5950226    1.199763          0         15
+  f1_s4_12_3 |        884     13.3009    13.58943          0         60
+    f1_s4_13 |        884    1.375566    .8822602          1          7
+-------------+---------------------------------------------------------
+    f1_s4_14 |        884    2.276018    1.360606          1         11
+    f1_s4_15 |        884    2.054299    .5228566          1          3
+    f1_s4_16 |         98    1.091837    .3238536          1          3
+  f1_s4_16_1 |         98    99.73469    384.5486          0       3700
+  f1_s4_16_2 |         63    1.047619    6.401685          0         50
+-------------+---------------------------------------------------------
+    f1_s4_17 |        884    1.597285    .4907219          1          2
+  f1_s4_17_1 |        356    41.35393    60.99976          1        600
+    f1_s4_18 |        884    1.884615    .3196664          1          2
+  f1_s4_18_1 |        102    56.22549    67.67407          1        500
+    f1_s4_19 |        884     1.94457    .2289469          1          2
+-------------+---------------------------------------------------------
+  f1_s4_19_1 |         49    76.12245    79.02232          0        350
+    f1_s4_20 |         52    2.269231    1.858899          1          7
+    f1_s4_21 |         52    6.480769    16.61501          0        100
+    f1_s4_22 |         52    1.519231    .5045046          1          2
+  f1_s4_22_1 |         25      61.888    99.67053        3.2        400
+-------------+---------------------------------------------------------
+    f1_s4_23 |        168    3.333333    1.977922          1          6
+    f1_s4_24 |        168    2.386905    1.990774          1          7
+    f1_s4_25 |        168      8.5625    19.23423          0        150
+    f1_s4_26 |      1,094    1.429616    .4952477          1          2
+    f1_s4_27 |        470    4.355319    1.818914          1          8
+-------------+---------------------------------------------------------
+    f1_s4_28 |         44    6.204545    3.159184          1         10
+    f1_s4_29 |         17    2.411765    1.769845          1          8
+  f1_s4_30_1 |         17    8.352941      8.9648          1         30
+  f1_s4_30_2 |         17           1    2.598076          0         10
+  f1_s4_30_3 |         17    4.117647    12.77636          0         50
+-------------+---------------------------------------------------------
+    f1_s4_31 |         17    2.176471    .7276069          1          3
+    f1_s4_32 |          3           1           0          1          1
+  f1_s4_32_1 |          3        4000    3605.551       1000       8000
+  f1_s4_32_2 |          1           0           .          0          0
+    f1_s4_33 |          3    2.333333    1.527525          1          4
+-------------+---------------------------------------------------------
+    f1_s4_34 |         17    1.529412    .5144958          1          2
+  f1_s4_34_1 |          8      136.75    149.0424          6        380
+    f1_s4_35 |         17    1.647059    .4925922          1          2
+  f1_s4_35_1 |          6        45.5    47.51316          0        100
+    f1_s4_36 |         17    1.823529    .3929526          1          2
+-------------+---------------------------------------------------------
+  f1_s4_36_1 |          3         107    100.1349          1        200
+    f1_s4_37 |        436    1.848624    .3588269          1          2
+    f1_s4_38 |        370    4.648649    1.643188          1          8
+    f1_s4_39 |        328    2.527439    3.331691          0         29
+    f1_s4_40 |        328    31.60213    121.3402          0       1800
+-------------+---------------------------------------------------------
+    f1_s4_41 |      3,452    1.795481    .4034082          1          2
+    f1_s4_42 |        706    2.749292    3.502102          1         14
+    f1_s4_43 |        706    4.266289    2.137785          1          8
+  f1_s4_44_1 |        706    .0226629    .2653444          0          5
+  f1_s4_44_2 |        706    .5368272    1.367061          0         10
+-------------+---------------------------------------------------------
+  f1_s4_44_3 |        706    13.64164    12.64375          0         60
+    f1_s4_45 |        706    6.112181    19.69817          0        320
+  f1_s4_46_1 |        706    .4575071    1.322594          0         20
+  f1_s4_46_2 |        706    14.45609     13.6917          0         60
+    f1_s4_47 |        706    5.303116    3.387322          1         14
+-------------+---------------------------------------------------------
+    f1_s4_48 |        706    2.066572    .5297813          1          3
+  f1_s4_49_1 |         77     1.12987     .439816          1          3
+  f1_s4_49_2 |         77    13075.99    113950.6          0     999999
+  f1_s4_49_3 |         45    2.333333    9.390517          0         50
+  f1_s4_50_1 |        706    1.856941    .3503817          1          2
+-------------+---------------------------------------------------------
+  f1_s4_50_2 |        101    61.71287    84.92671          0        500
+    f1_s4_51 |        706    2.582153    .6208381          1          3
+    f1_s4_52 |         50           2    2.976095          0         15
+    f1_s4_53 |         50       24.59    63.97574          0        400
+    f1_s4_54 |      3,452    1.902086    .2972417          1          2
+-------------+---------------------------------------------------------
+    f1_s4_55 |        338    9.094675    5.552814          1         16
+    f1_s4_56 |        338    1.745562    1.203504          1          8
+    f1_s4_57 |        338    2.866864    3.569159          0         30
+    f1_s4_58 |      3,452    3.540267    .8880225          1          5
+    f1_s4_59 |      3,438    2.041012    .5872313          1          3
+-------------+---------------------------------------------------------
+    f1_s4_60 |      3,452    1.551854    .8561771          1          3
+  f1_s4_61_1 |        231    3.225108    3.570589          1         15
+  f1_s4_61_2 |        231    9.077922    12.50367          1         99
+  f1_s4_61_3 |        231    17.08225    24.83226          1         99
+  f1_s4_62_1 |      2,386    5.156748    3.849222          1         16
+-------------+---------------------------------------------------------
+  f1_s4_62_2 |      2,386    10.91324     18.1482          1         99
+  f1_s4_62_3 |      2,385    18.25744    26.21969          1         99
+     f1_s5_1 |      3,452    1.774334    .4180809          1          2
+     f1_s5_2 |        779    2.382542     .560025          1          3
+     f1_s5_3 |         30    4.733333    2.476557          0          9
+-------------+---------------------------------------------------------
+     f1_s5_4 |          3           7    5.196152          1         10
+     f1_s5_5 |         27     1.62963    1.863581          1          8
+     f1_s5_6 |         27    4.888889    2.978556          1          8
+   f1_s5_7_1 |         27           0           0          0          0
+   f1_s5_7_2 |         27    .1851852    .3958474          0          1
+-------------+---------------------------------------------------------
+   f1_s5_7_3 |         27    16.66667    13.00887          0         40
+     f1_s5_8 |         27    2.637037    3.451215          0         12
+   f1_s5_9_1 |         27    .5925926    1.152231          0          4
+   f1_s5_9_2 |         27    17.03704    12.42356          0         40
+    f1_s5_10 |         27     99.7037    186.7487          0        800
+-------------+---------------------------------------------------------
+    f1_s5_11 |         27     2.37037    .7916948          1          3
+    f1_s5_12 |          5         3.4    6.542171          0         15
+    f1_s5_13 |          5         5.4     7.46994          0         15
+    f1_s5_14 |        451    1.949002    .2202375          1          2
+    f1_s5_15 |         23           3    3.357488          1          9
+-------------+---------------------------------------------------------
+    f1_s5_16 |          3           8           0          8          8
+    f1_s5_17 |         20         4.5    2.259483          1          9
+  f1_s5_18_1 |         20         .25    .5501196          0          2
+  f1_s5_18_2 |         20          21    14.74342          0         45
+    f1_s5_19 |         20        3.15    3.645834          0         10
+-------------+---------------------------------------------------------
+  f1_s5_20_1 |         20         .55    1.276302          0          4
+  f1_s5_20_2 |         20          12    13.70747          0         40
+    f1_s5_21 |         23    122.1739     308.279          0       1000
+    f1_s5_22 |         23    2.347826    .7751068          1          3
+    f1_s5_23 |          4        42.5    35.70714          5         90
+-------------+---------------------------------------------------------
+    f1_s5_24 |          4          50    70.71068          0        150
+    f1_s5_25 |         23    1.434783    .5068698          1          2
+    f1_s5_26 |         13    2.307692    .9473309          1          3
+    f1_s5_27 |         13    2.153846    2.609155          1          8
+    f1_s5_28 |         13    3.230769    2.204308          1          6
+-------------+---------------------------------------------------------
+  f1_s5_29_1 |         13           0           0          0          0
+  f1_s5_29_2 |         13    1.538462    4.115325          0         15
+  f1_s5_29_3 |         13    15.76923    17.18116          0         50
+    f1_s5_30 |         13    5.384615    10.92809          0         40
+  f1_s5_31_1 |         13    1.307692    4.130872          0         15
+-------------+---------------------------------------------------------
+  f1_s5_31_2 |         13    15.38462    12.15551          0         30
+    f1_s5_32 |         13    8.076923    27.63591          0        100
+    f1_s5_33 |         13    2.538462      .77625          1          3
+    f1_s5_34 |          2           0           0          0          0
+    f1_s5_35 |          2           0           0          0          0
+-------------+---------------------------------------------------------
+   f1_s7_0_1 |      3,452     1.01825    .1540059          1          3
+     f1_s7_1 |      3,452     1.20336    .4025567          1          2
+   f1_s7_2_1 |      2,750    15.45018    8.794213          1         31
+   f1_s7_2_2 |      2,750    6.549455     3.40846          1         12
+   f1_s7_2_3 |      2,750    1976.863    23.63848       1919       2018
+-------------+---------------------------------------------------------
+   f1_s7_3_1 |      2,750    16.13382     8.03115          1         30
+   f1_s7_3_2 |      2,750    10.58218    2.520987          1         12
+   f1_s7_3_3 |      2,750    2018.179    .3833459       2018       2019
+   f1_s7_4_1 |      2,750    58.34414    19.79804        3.2      155.7
+   f1_s7_4_2 |      2,750    58.33623    19.73936        3.2      155.7
+-------------+---------------------------------------------------------
+   f1_s7_4_3 |         25      60.476    20.92192         12      119.2
+   f1_s7_5_1 |         39    75.19744    8.357647         49         95
+   f1_s7_5_2 |         39    75.21026    8.353152         49         95
+   f1_s7_5_3 |          0
+   f1_s7_6_1 |      2,711    150.6418    17.49222       75.3      186.5
+-------------+---------------------------------------------------------
+   f1_s7_6_2 |      2,711    150.6555    17.49658         75      186.5
+   f1_s7_6_3 |         17    147.3529    14.42134      110.5        170
+   f1_s7_7_1 |        702    3.998575    1.607311          1          6
+    edaddias |      3,452    15730.69    8870.242         43      36392
+   edadmeses |        166    35.45783    15.38461          1         59
+-------------+---------------------------------------------------------
+ gedad_meses |        166    5.295181    2.374787          1          8
+    dcronica |        149    .2751678     .448105          0          1
+     dglobal |        148    .1081081    .3115713          0          1
+      daguda |        144    .0902778    .2875796          0          1
+  dcronica_2 |         39    .2051282    .4090739          0          1
+-------------+---------------------------------------------------------
+   dglobal_2 |         38    .0789474    .2732763          0          1
+    daguda_2 |         37    .0540541    .2292434          0          1
+     dsp5_11 |        175    .1542857    .3622589          0          1
+   dobes5_11 |        175    .1542857    .3622589          0          1
+   dspob5_11 |        175    .3085714    .4632292          0          1
+-------------+---------------------------------------------------------
+   ddelg5_11 |        175    .1028571    .3046439          0          1
+    dsp12_19 |        277    .1949458     .396876          0          1
+  dobes12_19 |        277    .1191336    .3245319          0          1
+  dspob12_19 |        277    .3140794    .4649883          0          1
+  ddelg12_19 |        277    .0433213    .2039479          0          1
+-------------+---------------------------------------------------------
+ dbpeso19_59 |      1,401    .0249822    .1561264          0          1
+  dnorm19_59 |      1,401    .3882941    .4875361          0          1
+ dspeso19_59 |      1,401    .3911492    .4881819          0          1
+  dobes19_59 |      1,401    .1955746     .396784          0          1
+dspobes19_59 |      1,401    .5867238    .4925974          0          1
+-------------+---------------------------------------------------------
+      _merge |      3,452    2.215238    .4110466          2          3
+
+. 
+end of do-file
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. //¿Ha  recibido información sobre el desarrollo del cuerpo?
+. tab f3_s2_200_1
+
+   200:  ¿Recibió o |
+        ha recibido |
+ información sobre: |
+   1. El desarrollo |
+       del cuerpo e |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        360       48.45       48.45
+                 no |        368       49.53       97.98
+no sabe/no responde |         15        2.02      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+end of do-file
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. //¿Ha  recibido información sobre el aparato reproductor femenino/masculino?
+. tab f3_s2_200_2
+
+ 200.2.  El aparato |
+        reproductor |
+femenino/masculino? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        408       54.91       54.91
+                 no |        321       43.20       98.12
+no sabe/no responde |         14        1.88      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+end of do-file
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. //¿Ha recibido información sobre la menstruación o regla?
+. tab f3_s2_200_2
+
+ 200.2.  El aparato |
+        reproductor |
+femenino/masculino? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        408       54.91       54.91
+                 no |        321       43.20       98.12
+no sabe/no responde |         14        1.88      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //¿Ha recibido información sobre las relaciones sexuales?
+. tab f3_s2_200_2
+
+ 200.2.  El aparato |
+        reproductor |
+femenino/masculino? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        408       54.91       54.91
+                 no |        321       43.20       98.12
+no sabe/no responde |         14        1.88      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //¿Ha recibido información sobre el embarazo y el parto?
+. tab f3_s2_200_5
+
+ 200.5  El embarazo |
+        y el parto? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        403       54.24       54.24
+                 no |        327       44.01       98.25
+no sabe/no responde |         13        1.75      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //¿Ha recibido información sobre los métodos anticonceptivos?
+. tab f3_s2_200_6
+
+ 200.6  Los métodos |
+   anticonceptivos? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        429       57.74       57.74
+                 no |        302       40.65       98.38
+no sabe/no responde |         12        1.62      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //¿Ha recibido información sobre las infecciones de transmisión sexual o el VIH/SIDA?
+. tab f3_s2_200_7
+
+         200.7  Las |
+     infecciones de |
+ transmisión sexual |
+     o el VIH/SIDA? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        444       59.76       59.76
+                 no |        289       38.90       98.65
+no sabe/no responde |         10        1.35      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //¿Ha recibido información sobre la píldora de emeregencia (del día después)?
+. tab f3_s2_200_8
+
+  200.8  Píldora de |
+    emergencia (del |
+      día después)? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        289       38.90       38.90
+                 no |        441       59.35       98.25
+no sabe/no responde |         13        1.75      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //Sexualidad (roles de género, orientación sexual, reproducción, valores, el placer, la intimidad, etc.)
+. tab f3_s2_200_9
+
+200.9  Sexualidad ( |
+           roles de |
+  género,orientació |
+          n sexual, |
+      reproducción, |
+         valores, e |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+                 si |        328       44.15       44.15
+                 no |        397       53.43       97.58
+no sabe/no responde |         18        2.42      100.00
+--------------------+-----------------------------------
+              Total |        743      100.00
+
+. 
+. //¿Ha tenido usted relaciones sexuales?
+. tab f3_s2_202
+
+  202.  ¿Ha tenido |
+        relaciones |
+         sexuales? |      Freq.     Percent        Cum.
+-------------------+-----------------------------------
+                si |        643       86.54       86.54
+                no |         83       11.17       97.71
+no desea contestar |         17        2.29      100.00
+-------------------+-----------------------------------
+             Total |        743      100.00
+
+. 
+. //¿Cuántos años cumplidos tenía usted cuando tuvo su primera relación sexual?
+. tab f3_s2_203
+
+       203. |
+   ¿Cuántos |
+       años |
+  cumplidos |
+      tenía |
+      usted |
+cuando tuvo |
+ su primera |
+   relación |
+       sexu |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          8 |          1        0.16        0.16
+         10 |          3        0.47        0.62
+         11 |          2        0.31        0.93
+         12 |         30        4.67        5.60
+         13 |         30        4.67       10.26
+         14 |         58        9.02       19.28
+         15 |         88       13.69       32.97
+         16 |         91       14.15       47.12
+         17 |         64        9.95       57.08
+         18 |         70       10.89       67.96
+         19 |         19        2.95       70.92
+         20 |         31        4.82       75.74
+         21 |         10        1.56       77.29
+         22 |         12        1.87       79.16
+         23 |         10        1.56       80.72
+         24 |          6        0.93       81.65
+         25 |         11        1.71       83.36
+         26 |          1        0.16       83.51
+         27 |          2        0.31       83.83
+         28 |          2        0.31       84.14
+         30 |          3        0.47       84.60
+         33 |          2        0.31       84.91
+         41 |          1        0.16       85.07
+         88 |         79       12.29       97.36
+         99 |         17        2.64      100.00
+------------+-----------------------------------
+      Total |        643      100.00
+
+. 
+. //¿Usó usted o ella algún método anticonceptivo durante su primera relación sexual?
+. tab f3_s2_204
+
+       204. |
+       ¿Usó |
+    usted o |
+ ella algún |
+     método |
+anticoncept |
+ivo durante |
+esa primera |
+    relació |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         si |        124       19.28       19.28
+         no |        519       80.72      100.00
+------------+-----------------------------------
+      Total |        643      100.00
+
+. 
+. //¿Usó el condón en su última relación sexual?
+. tab f3_s2_206
+
+  206.  ¿Usó el |
+   condón en su |
+         última |
+       relación |
+        sexual? |      Freq.     Percent        Cum.
+----------------+-----------------------------------
+             si |        133       20.68       20.68
+             no |        510       79.32      100.00
+----------------+-----------------------------------
+          Total |        643      100.00
+
+. 
+. //¿Ha oído hablar de algún método anticonceptivo?
+. tab f3_s3_300
+
+  300.  ¿Ha |
+       oído |
+  hablar de |
+      algún |
+     método |
+anticoncept |
+       ivo? |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         si |        489       65.81       65.81
+         no |        254       34.19      100.00
+------------+-----------------------------------
+      Total |        743      100.00
+
+. 
+. //¿Quién cree usted que debería utilizar un método anticonceptivo?
+. tab f3_s3_301
+
+  301.  ¿Quién cree |
+  usted que debería |
+ utilizar un método |
+    anticonceptivo? |      Freq.     Percent        Cum.
+--------------------+-----------------------------------
+        las mujeres |         59       12.07       12.07
+        los hombres |         54       11.04       23.11
+              ambos |        355       72.60       95.71
+no sabe/no responde |         21        4.29      100.00
+--------------------+-----------------------------------
+              Total |        489      100.00
+
+. 
+end of do-file
+
+. do "C:\Users\LENOVO\AppData\Local\Temp\STD5e58_000000.tmp"
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\LENOVO\Documents\primeros datos.log
+  log type:  text
+ closed on:   5 Dec 2024, 03:10:20
+-----------------------------------------------------------------------------------------------------------------------
